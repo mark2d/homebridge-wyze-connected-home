@@ -10,13 +10,13 @@
   "keywords": [
     "homebridge-plugin"
   ],
-  "homepage": "http://github.com/RMCob/homebridge-wyze-connected-home-op",
+  "homepage": "https://github.com/mark2d/homebridge-wyze-connected-home",
   "repository": {
     "type": "git",
-    "url": "git://github.com/RMCob/homebridge-wyze-connected-home-op.git"
+    "url": "git://github.com/mark2d/homebridge-wyze-connected-home.git"
   },
   "bugs": {
-    "url": "http://github.com/RMCob/homebridge-wyze-connected-home-op/issues"
+    "url": "https://github.com/mark2d/homebridge-wyze-connected-home/issues"
   },
   "engines": {
     "node": ">=0.12.0",
