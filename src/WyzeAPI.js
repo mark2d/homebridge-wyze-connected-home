@@ -21,12 +21,10 @@ module.exports = class WyzeAPI {
     this.authApiKey = options.authApiKey || 'WMXHYf79Nr5gIlt3r0r7p9Tcw5bvs6BB4U8O8nGJ';
     this.phoneId = options.phoneId || 'bc151f39-787b-4871-be27-5a20fd0a1937';
     this.appName = options.appName || 'com.hualai.WyzeCam';
-    // Matching the Wyze App iOS release version as of 05-12-2021 as a baseline
     this.appVer = options.appVer || 'com.hualai.WyzeCam___2.19.24';
     this.appVersion = options.appVersion || '2.19.24';
     this.sc = '9f275790cab94a72bd206c8876429f3c';
     this.sv = '9d74946e652647e9b6c9d59326aef104';
-    // Matching the iPadOS 14.5.1 user agent as a baseline
     this.userAgent = options.userAgent || "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15";
 
     // Login tokens
