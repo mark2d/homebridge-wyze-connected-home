@@ -4,6 +4,11 @@
 ### v0.6.0
 - Resolved 403 error resulting from a lack of user agent when communicating with Wyze services
 - Initial support for Wyze Bulb Color
+### v0.5.3
+- Improve logfile output for Bulb and Outdoor Plug
+
+### v0.5.2
+- Added support for Wyze Outdoor Plug
 
 ### v0.5.1
 - Improve debug logging for Contact and Motion sensors.

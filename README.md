@@ -6,8 +6,9 @@ This plugin adds support for Wyze Connected Home devices to [Homebridge](https:/
 - Light Bulb
 - Color Bulb (Mesh Light)
 - Plug
-- Contact Sensor
-- Motion Sensor
+- Outdoor Plug
+- V1 Contact Sensor
+- V1 Motion Sensor
 
 For more information about our version updates, please check our [change log](CHANGELOG.md).
 
