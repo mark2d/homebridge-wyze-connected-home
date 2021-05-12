@@ -36,7 +36,7 @@ Supported devices will be discovered and added to Homebridge automatically.
 * **`mfaCode`** &ndash; Only required for the initial login if you have two-factor authentication enabled for your account. This is typically a 6-digit code provided by your authenticator app.
 * **`refreshInterval`** &ndash; Defines how often the status of the devices will be polled in milliseconds (e.g., `"refreshInterval": 5000` will check the status of your devices' status every 5 seconds). Defaults to 10 seconds.
 * **`phoneId`** &ndash; The phone id used by the Wyze App. This value is just found by intercepting your phone's traffic. If no `phoneId` is specified, a default value will be used.
-* **`userAgent`** &ndash; The browser agent sent when communicating with Wyze services, as no browser agent results in a 403 error. If no `userAgent` is specified, a default recent Safari user agent will be used.
+* **`userAgent`** &ndash; The browser user agent sent when communicating with Wyze services, as no browser user agent results in a 403 error. If no `userAgent` is specified, a default recent Safari user agent will be used.
 
 ## Other Info
 
