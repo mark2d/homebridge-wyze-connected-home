@@ -1,6 +1,10 @@
 # homebridge-wyze-connected-home
 ## Releases
 
+### v0.6.0
+- Resolved 403 error resulting from a lack of user agent when communicating with Wyze services
+- Initial support for Wyze Bulb Color
+
 ### v0.5.1
 - Improve debug logging for Contact and Motion sensors.
 
