@@ -76,7 +76,7 @@ module.exports = class WyzeLight extends WyzeAccessory {
   }
 
   async setBrightness(value, callback) {
-    await this.sleep(250);
+    await this.sleep(10);
     this.plugin.log.debug(`Setting brightness for ${this.homeKitAccessory.context.mac} (${this.homeKitAccessory.context.nickname}) to ${value}`);
 
     try {
