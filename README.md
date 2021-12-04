@@ -1,6 +1,8 @@
-# homebridge-wyze-connected-home
+# homebridge-wyze-connected-home-op
 
 This plugin adds support for Wyze Connected Home devices to [Homebridge](https://github.com/homebridge/homebridge).
+
+This plugin is an actively maintained fork of misenhower's original [Wyze Homebridge Plugin](https://github.com/misenhower/homebridge-wyze-connected-home) project.
 
 ## Supported Devices
 - Light Bulb
@@ -9,6 +11,7 @@ This plugin adds support for Wyze Connected Home devices to [Homebridge](https:/
 - Outdoor Plug
 - V1 Contact Sensor
 - V1 Motion Sensor
+- Lock
 
 For more information about our version updates, please check our [change log](CHANGELOG.md).
 
@@ -42,7 +45,8 @@ Supported devices will be discovered and added to Homebridge automatically.
 ## Other Info
 
 Special thanks to the following projects for reference and inspiration:
-* **[ha-wyzeapi](https://github.com/JoshuaMulliken/ha-wyzeapi)**, a Wyze integration for Home Assistant
-* **[wyze-node](https://github.com/noelportugal/wyze-node)**, a Node library for the Wyze API
 
-Also, thanks to the [contributors](https://github.com/misenhower/homebridge-wyze-connected-home/graphs/contributors) who volunteered their time to help add support for more devices and features.
+- [ha-wyzeapi](https://github.com/JoshuaMulliken/ha-wyzeapi), a Wyze integration for Home Assistant.
+- [wyze-node](https://github.com/noelportugal/wyze-node), a Node library for the Wyze API.
+
+Thanks to [misenhower](https://github.com/misenhower/homebridge-wyze-connected-home) for the original Wyze Homebridge plugin, and thanks to [contributors](https://github.com/misenhower/homebridge-wyze-connected-home/graphs/contributors) and [other developers who were not merged](https://github.com/misenhower/homebridge-wyze-connected-home/pulls) for volunteering their time to help fix bugs and add support for more devices and features.
